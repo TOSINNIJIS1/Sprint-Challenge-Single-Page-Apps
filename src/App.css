@@ -1,0 +1,24 @@
+.btn {
+    box-sizing: border-box;
+    margin: 50px 20px 23em 28rem ;
+
+}
+
+.btn:hover {
+    border-radius: 10px;
+    color: white;
+    background: darkseagreen;
+    transition: 4s;
+}
+
+.main-img:hover {
+    transform: rotate(360deg);
+    transition: 20s;
+    border-radius: 40%;
+    border: 10px solid darkseagreen;
+}
+
+.ui h2 {
+    text-align: center;
+
+}
