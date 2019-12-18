@@ -1,0 +1,52 @@
+
+
+.main-img:hover {
+    transform: rotate(360deg);
+    transition: 20s;
+    border-radius: 40%;
+    border: 10px solid darkseagreen;
+}
+
+.ui h2 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    /* margin: 0.2rem; */
+    display: flex;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+.img {
+    border: groove darkseagreen 10px;
+    /* border-radius: 30%; */
+    transform: translateY(120px);
+    z-index: 1;
+}
+
+.img:hover {
+    transform: translateY(-8px);
+    transition: 5s;
+}
+
+
+.another {
+    margin: 0.2rem;
+    border: groove 5px gainsboro;
+    border: solid;
+}
+.solid:hover{
+    transition: 9s;
+    box-shadow: 0 19px 38px rgba(1, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
+
+
+/* .secContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+} */
