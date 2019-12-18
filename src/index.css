@@ -36,6 +36,23 @@ main {
   margin: 0 auto;
 }
 
+.btn h2 {
+  background: black;
+  color: white;
+  padding: 30px;
+  border-radius: 20%;
+  margin: 50px 20px 10em 26rem ;
+
+}
+
+.btn h2:hover {
+  border-radius: 10px;
+  color: black;
+  background: white;
+  border: black 1px solid;
+  transition: 4s;
+}
+
 
 
 

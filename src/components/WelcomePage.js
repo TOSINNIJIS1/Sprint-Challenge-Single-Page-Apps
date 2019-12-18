@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 export default function WelcomePage() {
   return (
     <section className="welcome-page">
-      <header>
+      <header className="sec">
         <h1>Welcome to the ultimate fan site!</h1>
         <img 
           className="main-img"
@@ -13,9 +13,7 @@ export default function WelcomePage() {
         />
         <Link to="/Char">
         <button className="btn"> 
-        <h2>
-         Click Here 
-         </h2>
+        <h2> Click Here </h2>
          </button>
         </Link>
       </header>
