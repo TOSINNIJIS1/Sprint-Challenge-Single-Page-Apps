@@ -22,12 +22,12 @@
 .img {
     border: groove darkseagreen 10px;
     /* border-radius: 30%; */
-    transform: translatey(120px);
+    transform: translateY(120px);
     z-index: 1;
 }
 
 .img:hover {
-    transform: translatex(-8px);
+    transform: translateY(-8px);
     transition: 5s;
 }
 
